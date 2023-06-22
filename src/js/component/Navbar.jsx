@@ -3,13 +3,14 @@ import ReactDOM from "react-dom";
 
 export let NavBar = function () {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary container" style={{ backgroundColor: 'black' }}>
+      <div className="a" style={{ backgroundColor: 'black'}}>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <a className="navbar-brand" href="#" style={{ color: 'white' }}>Start bootstrap</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style={{ color: 'white' }}>
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup" style={{ justifyContent: 'flex-end', display: 'flex' }}>
+    <div className="navbar-collapse collapse" id="navbarNavAltMarkup" style={{ justifyContent: 'flex-end', color: 'white'}}>
               <div className="navbar-nav">
                   <a className="nav-link active" style={{ color: 'white' }} aria-current="page" href="#">Home</a>
                   <a className="nav-link active" style={{ color: 'white' }} href="#">About</a>
@@ -19,5 +20,6 @@ export let NavBar = function () {
           </div>
       </div>
   </nav>
+      </div>
   )
 }
