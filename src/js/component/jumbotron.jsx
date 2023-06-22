@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 export let Jumbotron = function () {
     return (
-        <div className="container-fluid mx-auto m-0 p-0" style={{ width:'85%'}}>
+        <div className="container mx-auto m-0 p-0" style={{ width:'85%'}}>
             <div className="card bg-light m-4">
                 <div className="card-body">
                 <h1 className="card-title">A Warm Welcome!</h1>
