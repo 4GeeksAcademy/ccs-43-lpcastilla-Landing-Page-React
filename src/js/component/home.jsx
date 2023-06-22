@@ -10,7 +10,7 @@ import  {Card}  from "./card.jsx";
 //create your first component
 export const Home = () => {
 	return (
-		<div className="container">
+		<div className="container-fluid">
 			<NavBar />
 			<Jumbotron />
 			<Card />
