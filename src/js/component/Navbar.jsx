@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 export let NavBar = function () {
   return (
       <div className="a" style={{ backgroundColor: 'black'}}>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary container">
   <div className="container-fluid">
     <a className="navbar-brand" href="#" style={{ color: 'white' }}>Start bootstrap</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
