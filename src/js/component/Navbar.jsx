@@ -9,7 +9,7 @@ export let NavBar = function () {
     <a className="navbar-brand" href="#" style={{ color: 'white' }}>Start bootstrap</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
-      <i class="fa-solid fa-bars" style={{ color: 'white' }}></i>
+      <i className="fa-solid fa-bars" style={{ color: 'white' }}></i>
     </button>
     <div className="navbar-collapse collapse" id="navbarNavAltMarkup" style={{ justifyContent: 'flex-end', color: 'white'}}>
               <div className="navbar-nav">

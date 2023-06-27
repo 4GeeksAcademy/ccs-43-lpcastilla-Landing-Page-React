@@ -4,7 +4,6 @@ import React from "react";
 import {Jumbotron} from "./jumbotron.jsx"
 import {NavBar} from "./Navbar.jsx"
 import {Footer} from "./footer.jsx"
-
 import  {Card}  from "./card.jsx";
 
 //create your first component
